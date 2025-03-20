@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript Keyword</title>
+    </head>
+<body>
+
+<p id="student1"></p>
+<p id="student2"></p>
+<script>
+
+// creating a class
+class student {
+    constructor(name, year)
+    {
+this.name = name;
+this.year = year
+
+    }// creating age method for class student 
+age(){
+let date = new Date();
+return date.getFullYear() - this.year;
+
+}
+
+}
+
+
+// use student class with two object 
+student1 = new student("muaz" , 1993);
+document.getElementById("student1").innerHTML = 
+"My name is " + student1.name + ". I was born in " + student1.year + ". And my age is " + student1.age();
+
+
+
+// use student class with two object 
+student2 = new student("pitachesse" , 1989);
+document.getElementById("student1").innerHTML = 
+"My name is " + student2.name + ". I was born in " + student2.year + ". And my age is " + student2.age();
+
+
+
+
+
+
+
+
+
+</script>
+<p id="student1"></p>
+<script>
+// creating a class
+class student {
+    constructor(name, year)
+    {
+this.name = name;
+this.year = year
+
+    }// creating age method for class student 
+age(){
+let date = new Date();
+return date.getFullYear() - this.year;
+
+}
+
+}
+
+
+// use student class with two object 
+student1 = new student("muaz" , 1993);
+document.getElementById("student1").innerHTML = 
+"My name is " + student1.name + ". I was born in " + student1.year + ". And my age is " + student1.age();
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+</body>
+
+
+
+    </html>
